@@ -1,0 +1,27 @@
+{
+    "id": "xiaozhimcp",
+    "version": "0.0.3",
+    "name": {
+        "zh-cn": "小智 MCP 客户端",
+        "en": "Xiaozhi MCP Client"
+    },
+    "description": {
+        "zh-cn": "连接小智 AI 服务的 MCP 客户端，支持传感器工具注册",
+        "en": "MCP client for Xiaozhi AI service with sensor tool registration"
+    },
+    "author": "Nick",
+    "cover": "cover.png",
+    "isDevice": false,
+    "compatibilityId": "",
+    "sku": "",
+    "libraryConfig": [],
+    "supportDevices": {
+        "dev-DFRobot-unihikerK10": "^0.0.1",
+        "dev-DFRobot-firebeetleEsp32": "^0.0.1",
+        "dev-DFRobot-firebeetleEsp32E": "^0.0.1",
+        "dev-DFRobot-firebeetleEsp8266": "^0.0.1",
+        "dev-DFRobot-handpyEsp32": "^0.0.1"
+    },
+    "main": "main.js",
+    "mode": "upload"
+}

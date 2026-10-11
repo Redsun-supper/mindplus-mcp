@@ -1,0 +1,19 @@
+{
+    "id": "mcpserver",
+    "version": "0.0.3",
+    "name": {
+        "zh-cn": "MCP服务器",
+        "en": "MCP Server"
+    },
+    "description": {
+        "zh-cn": "用Python语言创建自定义MCP服务",
+        "en": "Create custom MCP services with Python"
+    },
+    "author": "DFRobot",
+    "cover": "cover.png",
+    "main": "main.js",
+    "mode": "python-block",
+    "isDevice": false,
+    "compatibilityId": "dfrobot-mcpserver-thirdex",
+    "sku": ""
+}

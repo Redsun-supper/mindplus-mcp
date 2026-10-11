@@ -1,0 +1,46 @@
+{
+  "name": "mindplus-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Zero-dependency MCP server bridging DFRobot Mind+ 2.0 (mind-link JSON-RPC over WebSocket)",
+  "bin": {
+    "mindplus-mcp": "src/index.js",
+    "mindplus-mcp-install": "install.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "start:http": "node src/index.js --transport http --port 8848",
+    "install": "node install.mjs",
+    "install:list": "node install.mjs --list",
+    "smoke:install": "node test/install-smoke.mjs",
+    "smoke": "node test/smoke.mjs",
+    "smoke:gui": "node test/gui-smoke.mjs",
+    "smoke:http": "node test/http-smoke.mjs",
+    "test": "node test/install-smoke.mjs && node test/gui-smoke.mjs && node test/smoke.mjs && node test/http-smoke.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mindplus",
+    "mind-link",
+    "dfrobot",
+    "arduino",
+    "serial",
+    "gui-automation",
+    "computer-use",
+    "screenshot",
+    "vision"
+  ],
+  "files": [
+    "src",
+    "install.mjs",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ]
+}
